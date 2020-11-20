@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "set": "set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/",
+    "package": "electron-packager ./ --win --out ./output --arch=x64  --electron-version=11.0.2 --asar --overwrite --icon=icon.ico"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.0.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.1.0"
+  }
+}
