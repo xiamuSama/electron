@@ -24,7 +24,7 @@ function createWindow() {
     minimizable: false,
     //底部任务栏隐藏
     focusable: false,
-    alwaysOnTop: true,
+    //alwaysOnTop: true,
     //背景透明
     transparent: true,
     frame: false,
