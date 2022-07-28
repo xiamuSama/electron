@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "set": "set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/",
+    "package-mac": "electron-packager ./ snqx2 --icon=icon.icns --out=./output --overwrite --arch=x64",
+    "dmg": "electron-installer-dmg ./output/snqx2-darwin-x64/snqx2.app snqx2-dmg --out=./output --overwrite",
     "package": "electron-packager ./ --win --out ./output --arch=x64  --electron-version=11.0.2 --download.mirrorOptions.mirror=https://npm.taobao.org/mirrors/electron/ --asar --overwrite --icon=icon.ico"
   },
   "author": "",
